@@ -31,7 +31,7 @@
  - O valor inicial é sempre o valor default de cada tipo. 
 
        #### Definindo - Reference Types.
- - Contém uma REFERÊNCIA para uma instância do tipo criado.
+ - Contém uma REFERÊNCIA para uma instância do tipo criado. 
  - A REFERÊNCIA NUNCA MUDA AO ATRIBUIR O VALOR PARA OUTRA VARIÁVEL.
  - Na Stack fica um ponteiro e a alocação na HEAP.
  - Seu valor inicial é sempre "Null". 
