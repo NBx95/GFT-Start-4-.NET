@@ -193,19 +193,9 @@ Criar uma console application para encontrar uma pessoa em uma Lista de pessoas;
     }
 
 ``` 
-
-#### REVIEW: 
-- O que são value e reference types. 
-- onde o CLR aloca o Value(Stack) e Reference Types(Heap)
-- Os principais objetos tratados como Value Types (tipos primitivos (int, enum, decimal, bool)
-- Os principais objetos tratados como Reference Types (arrays, interfaces.)
-- Como diferenciá-los (Pela hierarquia das classes) 
-- Documentação da Microsoft C# & DotNet.
-- Exemplos das demos. 
-[GitHub: Ricardo Vicentini: RDemos-Reference-And-Value-Types]
 //
 
-##### Aprendendo a utilizar a palavra chave "ref keywords" 
+### Aprendendo a utilizar a palavra chave "ref keywords" 
 
 - Tipos por Referência e Valor: 
 - Utilização: O "ref" indica que o conteúdo de determinada variável acessada, será acessado por referência. E pode ser usada em 4 situações... Uma palavra chave que pode ser colocada em alguns pontos do código, e esta palavra chave, muda o comportamento do próprio compilador. 
