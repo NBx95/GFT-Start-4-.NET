@@ -143,7 +143,7 @@ Aula prática, com o VSCode... anotações feitas aqui:* Nem sempre levar em con
     } 
 ```
 
-*<Métodos: Substitui o código comentado acima. Quando você invoca uma cópia e não um reference type*
+*Métodos: Substitui o código comentado acima. Quando você invoca uma cópia e não um reference type*
 
 ```
     public Pessoa Clone ()
