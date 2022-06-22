@@ -45,7 +45,7 @@ Extouro de sessão/buffer: Quebrando a regra de exeção.
 
 Tipos de valor & Tipos e variáveis: 
 
-####Variáveis do tipo de valor:
+#### Variáveis do tipo de valor:
 
 Variáveis de tipos de valor contêm diretamente seus dados. (separa um determinado valor de dados na memória, a própria variável contêm seus dados)
 As variáveis têm sua própria cópia dos dados e não é possível que as operações afetam outra variável (exceto no caso das variáveis de parâmetro ref e out)
@@ -54,7 +54,7 @@ As variáveis têm sua própria cópia dos dados e não é possível que as oper
 - Pontos Flutuantes: float, double, decimal
 - Booleano: bool, enum, strucu e tipos nullable (exemplo int?)
 
-####Variáveis de referência:
+#### Variáveis de referência:
 
 Variáveis de tipos de referência armazenam referências a seus dados. (elas não têm os dados diretamente juntos com elas ali na memôria, elas guardam a ultima referência pra esses dados e esses dados são armazenados em um outro espaço da memôria)
 É possível que duas variáveis façam referência ao mesmo objeto e, portanto, que operações em ima variável afetem o objeto referenciado pela outra variável.
@@ -62,7 +62,7 @@ Variáveis de tipos de referência armazenam referências a seus dados. (elas n�
 - Tipos Arrays:int[], int[,], etc...
 - interface, delegate.
 
-####Instruções. 
+#### Instruções. 
 Ações de um programa são expressas usando instruções 
 { 
 Um bloco permite que várias instruções sejam escritas em contextos
@@ -71,7 +71,7 @@ Um bloco permite que várias instruções sejam escritas em contextos
 (que nós podemos agrupar essas ações, essas instruções dentro de um contexto "bloco" que geralmente é delimitado por chaves { }, 
 no C# assim como na linguâgem JAVA por exemplo, você pode utilizar chaves { }, pra especificar um bloco de código e ter as instruções ali dentro) 
 
-####No C# quando falado em instruções, falamos de: 
+#### No C# quando falado em instruções, falamos de: 
 
 -Declaração de variáveis e constantes locais
 - if, switch:
@@ -83,7 +83,7 @@ se algo for A eu faço A, se não for A, eu faço B...
 - using: Dentro de uma classe importar pacotes a namespaces dentro de nosso projeto.
 
 
-###Arrays.: Aula pratica, pelo VSCode... C# o nome da pasta com os códigos fornecidos pelo github do prof: Gabriel Faraday
+#### Arrays.: Aula pratica, pelo VSCode... C# o nome da pasta com os códigos fornecidos pelo github do prof: Gabriel Faraday
 
 program.cs = como cada instrução pode ser usada baseados nas informações da aula anterior. 
 
@@ -99,32 +99,33 @@ Ao criar um array é especificado o tamanho da nova instância, que é fixo dura
 Os índices dos elementso de um array variam de 0 a comprimento do array - 1. 
 
 ```
-Array unidimensional: 
-int [] a = new int [10];
-for (int i = 0; i < a.Length; i++)
-{
-a[i] = i * i;
-}
-for (int i = 0; i < a.Length; i++)
-{
-Console.WriteLine($"a[{i}] = {a[i]}");
-}
+#####Array unidimensional: 
 
-Array multidimensional (matrizes);
+int [] a = new int [10];
+  for (int i = 0; i < a.Length; i++)
+  {
+    a[i] = i * i;
+  }
+  for (int i = 0; i < a.Length; i++)
+  {
+    Console.WriteLine($"a[{i}] = {a[i]}");
+  }
+
+#####Array multidimensional (matrizes);
 
 int [,] a2 = new int [10, 5]; 
 int [,,] a3 = new int [10, 5, 2];
 
-Inicializador de Array:
+#####Inicializador de Array:
+
 int [] a = new int [] {1, 2, 3}; 
 int [] a = {1, 2, 3};
 
-int [] t = 
-new int [3]; 
-t[0] = 1;
+int [] t = new int [3]; 
+t[0] = 1; 
 t[1] = 2; 
-t[2] = 3;
-int[] a = t;
+t[2] = 3; 
+int[] a = t; 
 ```
 
 Classes e objetos essenciais em C#: 
@@ -137,12 +138,12 @@ O que são Classes e Objetos em C#:
 public class Ponto
 ```
 {
-	public int x, y;
-	public Ponto (intx, int y)
-	{
-		this.x = x;
-		this.y = y;
-	}
+  public int x, y;
+  public Ponto (intx, int y)
+  {
+    this.x = x;
+    this.y = y;
+  }
 }
 ```
 Instâncias de classes (objetos) são criadas usando o operador new, que aloca memória para uma nova instância, chama um construtor para inicializar a instância e retorna uma referência à instância. 
@@ -171,6 +172,7 @@ Os métodos podem ter uma lista de parâmetros, que representam valores ou refer
 
 Como aplicar Classes e Objetos em projetos: 
 
-Só pode assim herdar de uma única class. 
-VIRTUAL: permite que uma classe filha, sobrescreva a atuação do método.
+Só pode assim herdar de uma única class.
+
+VIRTUAL: permite que uma classe filha, sobrescreva a atuação do método. 
 OVERRIDE: sobrescreva o método, realizando outra ação. 
