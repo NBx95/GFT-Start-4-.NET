@@ -55,10 +55,6 @@ public class Problem {
             case 12:
                 Console.WriteLine("December");
                 break;
-            
-            
-           //continue o código com sua solução
-
 
             default:
                 Console.WriteLine("Digite um número válido de 1 a 12");
