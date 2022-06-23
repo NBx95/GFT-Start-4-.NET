@@ -5,8 +5,8 @@
 - Entrada: A entrada contém um único valor inteiro.
 - Saída: Imprima por extenso o nome do mês correspondente ao número existente na entrada, com a primeira letra em maiúscula.
  
-Exemplo de Entrada //	Exemplo de Saída
-                 4 // April
+###### Exemplo de Entrada: 4 //	Exemplo de Saída: APRIL
+
   
 ```
 using System;
